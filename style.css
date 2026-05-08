@@ -2,18 +2,22 @@
 
 :root{
     --cor-principal: #9966CC;
-    --cor-secundaria: #8A2BE2;
+    --cor-secundaria: #8000FF;
     --cor-de-destaque:#8000FF;
 }
 
 body{
-    background-color: #3a0252;
+    background-color: #1A0033;
     font-family: 'Chakra Petch', sans-serif;
     color: var(--cor-principal);
     font-weight: 500;
 }
-
-h1, h2, h5{
+h1 {
+    color: #BC8FEE;
+    font-weight: 700;
+    text-shadow: 0 0 8px #9D00FF;
+}
+h2, h5{
     color: var(--cor-secundaria);
     font-weight: 700;
 }
@@ -45,6 +49,7 @@ a:hover{
 }
 
 .texto{
+    color: #E0B0FF;
     padding-top: 4em;
     font-size: 18px;
     align-items: center;
