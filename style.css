@@ -58,3 +58,7 @@ a:hover{
 .imagem-na-esquerda{
     margin-right: 1.5em;
 }
+
+.modal {
+    background-color: #F3E5F5;
+}
